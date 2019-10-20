@@ -14,3 +14,4 @@ RUN git clone --depth 1 https://github.com/octaspace-project/btc-predict-demo
 RUN pip install -r /btc-predict-demo/requirements.txt
 
 WORKDIR /btc-predict-demo
+
