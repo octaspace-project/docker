@@ -11,7 +11,7 @@ RUN pip3 --no-cache-dir install --upgrade \
     
 RUN git clone --depth 1 https://github.com/octaspace-project/btc-predict-demo
 
-RUN pip install -r /btc-predict-demo/requirements.txt
+RUN pip --no-cache-dir install -r /btc-predict-demo/requirements.txt
 
 WORKDIR /btc-predict-demo
 
